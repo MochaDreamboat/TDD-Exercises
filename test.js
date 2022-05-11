@@ -4,6 +4,7 @@ const capitalize = require('./capitalize');
 const reverseString = require('./reverseString');
 const calculator = require('./calculator');
 const caesarCipher = require('./caesarcipher.js');
+const analyzeArray = require('./analyzearray.js')
 
 test('adds 1 + 2 to equal 3', () => {
 expect(sum(1, 2)).toBe(3);

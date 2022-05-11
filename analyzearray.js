@@ -23,3 +23,5 @@ let analyzeArray = (arr) => {
 
     return {average, min, max, length}
 };
+
+module.exports = analyzeArray;

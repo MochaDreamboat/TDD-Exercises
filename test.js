@@ -61,3 +61,9 @@ test('expect encrypted message with -1 shift', () =>{
 test('expect encryped message with 5 shift', () => {
     expect(caesarCipher('attack at dawn', -5)).toBe('fyyfhp fy ifbs');
 });
+
+// Analyze array test
+test('Return object with appropriate statistics of inputted array.', () => {
+    expect(analyzeArray([1,2,3,4,5])).toBe({average: 3, min: 1, max: 5, length: 5});
+});
+
